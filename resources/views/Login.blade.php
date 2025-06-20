@@ -32,11 +32,15 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ asset('logo.png') }}" />
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
+
 <!-- Toastify CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 
 <!-- Toastify JS -->
 <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<!-- Core CSS -->
+<link rel="stylesheet" href="{{ url('assets/vendor/css/core.css') }}" class="template-customizer-core-css" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
